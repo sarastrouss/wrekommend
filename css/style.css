@@ -1,0 +1,46 @@
+body {
+	background-color: #F0F1F5;
+	font-family: 'Lato';
+}
+
+input[type="text"] {
+	display: block;
+	margin: 0;
+	width: 100%;
+	font-family: 'Lato';
+	font-size: 68px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	outline: none;
+	background-color: #F0F1F5;
+	border: none;
+}
+
+#button1 {
+	display: none;
+	float: right;
+	width: 200px;
+}
+
+#button2 {
+	display: none;
+	float: right;
+	width: 200px;
+}
+
+#mute {
+	display: none;
+	float: right;
+	width: 200px;
+}
+
+.search {
+	margin: 0 auto;
+}
+
+#chart {
+	font-family: 'Lato'; 
+	width: 800px;
+	height: 500px;
+}
