@@ -17,30 +17,54 @@ input[type="text"] {
 	border: none;
 }
 
+#container {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #button1 {
 	display: none;
-	float: right;
-	width: 200px;
+/*	float: right;
+	width: 200px;*/
+	font-family: 'Lato';
+	border: none;
+	font-size: 14px;
+	background-color: rgb(158, 218, 229);
 }
+
 
 #button2 {
 	display: none;
-	float: right;
-	width: 200px;
+/*	float: right;
+	width: 170px;*/
+	font-family: 'Lato';
+	border: none;
+	font-size: 14px;
+	background-color: rgb(158, 218, 229);
 }
 
 #mute {
 	display: none;
-	float: right;
-	width: 200px;
+/*	float: right;
+	width: 200px;*/
+	font-family: 'Lato';
+	border: none;
+	font-size: 14px;
+	background-color: rgb(158, 218, 229);
 }
 
 .search {
 	margin: 0 auto;
 }
 
+
 #chart {
 	font-family: 'Lato'; 
-	width: 800px;
 	height: 500px;
+	margin: 0 auto;
+	padding-right: 50px;
 }

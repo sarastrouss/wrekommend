@@ -4,6 +4,8 @@
     'use strict';
 
     var audio = new Audio();
+    var volume = 0.7;
+    audio.volume = volume;
 
     var currentPlayingSongId = null;
 
@@ -21,7 +23,7 @@
 
     function clearMusic() {
         if (audio) {
-            audio.pause();
+            audio.volume = 0;
         }
         currentPlayingSongId = null;
     }
